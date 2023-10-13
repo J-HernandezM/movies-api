@@ -1,0 +1,25 @@
+### GET ALL MOVIES
+GET http://localhost:4545/movies
+### GET A SPECIFIC MOVIE
+GET http://localhost:4545/movies/id/5ad1a235-0d9c-410a-b32b-220d91689a08
+### FILTER BY GENRE
+GET http://localhost:4545/movies?genre=action
+### GET A MOVIE BY TITLE
+GET http://localhost:4545/movies/title/King
+### POST A NEW MOVIE
+POST http://localhost:4545/movies
+Content-Type: application/json
+
+{
+    "monda": "megamonda",
+    "title": "the Godfather",
+    "year": 1975,
+    "director": "Francis Ford Coppola",
+    "duration": 175,
+    "poster": "https://img.fruugo.com/product/4/49/14441494_max.jpg",
+    "genre": [
+        "Crime",
+        "Drama"
+    ],
+    "rate": 4.5
+}
