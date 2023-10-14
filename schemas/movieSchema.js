@@ -17,7 +17,7 @@ const validateMovie = (object) => {
 }
 
 const validatePartialMovie = (object) => {
-    return movieSchema.partial.safeParse(object)
+    return movieSchema.partial().safeParse(object)
 }
 
 module.exports = {

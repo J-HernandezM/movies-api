@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies API Test</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Movies API Test</h1>
+        <div>
+            <h2>POST A NEW MOVIE</h2>
+            <form action="submit">
+                <label for="inputTitle">Title *</label>
+                <input id="inputTitle" name="title" type="text">
+                <label for="inputYear">Year *</label>
+                <input id="inputYear" name="year" type="text">
+                <label for="inputDirector">Director *</label>
+                <input id="inputDirector" name="director" type="text">
+                <label for="inputDuration">Duration (minutes) *</label>
+                <input id="inputDuration" name="duration" type="text">
+                <label for="inputPoster">Poster image *</label>
+                <input id="inputPoster" name="poster" type="url">
+                <label for="inputGenre">Genres (separated by commas) *</label>
+                <input id="inputGenre" name="genre" type="text">
+                <label for="inputRate">Rate (0-10) *</label>
+                <input id="inputRate" name="rate" type="text">
+                <button type="button" class="submitBtn">submit</button>
+            </form>
+        </div>
+        <section>
+
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>

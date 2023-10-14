@@ -1,0 +1,53 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+img{
+    width: 320px;
+    max-width: 100%;
+    height: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+input, label {
+    width: 250px;
+}
+input{
+    margin: 4px 0;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1, h2{
+    text-align: center;
+    margin: 0 0 20px;
+}
+h1{
+    border-bottom: 1px solid black;
+}
+button{
+    background-color: #274C77;
+    width: 100px;
+    padding: 10px 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+    outline: 1px solid transparent;
+    border: 1px solid transparent;
+    margin-top: 4px;
+}
+button:hover{
+    filter: brightness(1.1);
+    cursor: pointer;
+}
+.movieCard{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px 0;
+}

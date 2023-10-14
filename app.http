@@ -11,7 +11,6 @@ POST http://localhost:4545/movies
 Content-Type: application/json
 
 {
-    "monda": "megamonda",
     "title": "the Godfather",
     "year": 1975,
     "director": "Francis Ford Coppola",
@@ -23,3 +22,12 @@ Content-Type: application/json
     ],
     "rate": 4.5
 }
+### PATCH A MOVIE
+PATCH http://localhost:4545/movies/5ad1a235-0d9c-410a-b32b-220d91689a08
+Content-Type: application/json
+
+{
+    "title": "new title"
+}
+### DELETE A MOVIE
+DELETE http://localhost:4545/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
