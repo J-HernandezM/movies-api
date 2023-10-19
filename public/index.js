@@ -3,6 +3,8 @@ const submitBtn = document.querySelector('.submitBtn')
 const form = document.querySelector('form')
 const inputs = [...document.querySelectorAll('input')]
 
+// proposed solution
+
 const fetchData = async ({urlApi, post}) => {
     let response
     if(post){
